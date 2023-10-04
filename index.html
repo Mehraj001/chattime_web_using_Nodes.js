@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ChatTime</title>
+      <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+      <script defer src="js/clint.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+      <nav>
+            <img class="logo" src="chat.png" alt="">
+            <h1>Welcome to the ChatTime</h1>
+      </nav>
+      <div class="containor">
+            <div class="message right">You : joined the chat...</div>
+            <div class="message left">Rohan : Joined the chat...</div>
+      </div>
+      <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="message_info" id="message_info">
+                <button class="btn" type="submit">send</button>
+            </form>
+      </div>
+</body>
+</html>
